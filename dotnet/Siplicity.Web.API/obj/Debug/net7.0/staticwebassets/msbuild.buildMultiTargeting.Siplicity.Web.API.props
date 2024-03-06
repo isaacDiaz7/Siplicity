@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Siplicity.Web.API.props" />
+</Project>
