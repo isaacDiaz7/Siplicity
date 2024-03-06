@@ -9,9 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-*appsettings.json
 .vs/
-Siplicity.Web.Api/obj/
 Siplicity.Web.Api/bin/Debug/net7.0/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
