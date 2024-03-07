@@ -15,4 +15,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Project\Siplicity\dotnet\Siplicity.Web.API\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Project\Siplicity\dotnet\Siplicity.Web.API\.editorconfig" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,6 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
+using Microsoft.Data.SqlClient;
 using Siplicity.Web.API.Models;
 using System.Data;
 
@@ -9,7 +11,8 @@ namespace Siplicity.Web.API.DataAccessLayer
     {
         SqlConnection _connection = null;
         SqlCommand _command = null;
-        public static IConfiguration Configuration { get; set; }
+        public static IConfiguration ?Configuration { get; set; }
+
         private string GetConnectionString()
         {
             var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
