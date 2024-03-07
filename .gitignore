@@ -12,6 +12,7 @@
 .vs/
 Siplicity.Web.Api/bin/Debug/net7.0/
 .editorconfig
+appsettings.json
 appsettings.json.example
 
 # User-specific files (MonoDevelop/Xamarin Studio)
