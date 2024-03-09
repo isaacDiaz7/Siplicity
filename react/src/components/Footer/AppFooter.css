@@ -1,0 +1,12 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-style: italic;
+  padding-top: 3px;
+}
+
+.footer-border {
+  margin: 1px auto;
+  width: 400px;
+}
