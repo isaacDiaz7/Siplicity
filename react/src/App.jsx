@@ -3,7 +3,7 @@
 // import viteLogo from "/vite.svg";
 import "./App.css";
 import AppHeader from "./components/AppHeader";
-import AppFooter from "./components/Footer/AppFooter";
+import AppFooter from "./components/footer/AppFooter";
 
 function App() {
   return (

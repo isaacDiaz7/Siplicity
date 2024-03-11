@@ -1,8 +1,6 @@
 import React from "react";
-import "./AppFooter.css";
+import "./appFooter.css";
 import { Container } from "react-bootstrap";
-
-//not very happy with it but it'll work for now
 
 function AppFooter() {
   return (
