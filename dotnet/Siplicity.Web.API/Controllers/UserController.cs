@@ -47,5 +47,26 @@ namespace Siplicity.Web.API.Controllers
             }
             return StatusCode(code, response);
         }
+
+        [HttpPost]
+        public IActionResult Create(UserAddRequest request) 
+        {
+            int code = 201;
+            ObjectResult result = null;
+
+
+            try
+            {
+                int id = _dal.Add(request);
+                result = StatusCode(201, id);
+
+            }
+            catch (Exception ex)
+            {
+
+                result = StatusCode(500, ex.ToString());
+            }
+            return result;
+        }
     }
 }
