@@ -12,6 +12,7 @@
 .vs/
 Siplicity.Web.Api/bin/Debug/net7.0/
 .editorconfig
+obj
 appsettings.json
 appsettings.json.example
 
