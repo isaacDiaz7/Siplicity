@@ -1,0 +1,13 @@
+{
+  "workbench.colorCustomizations": {
+    "editorGroup.border": "#5be964",
+    "sideBar.border": "#5be964",
+    "statusBar.background": "#2ee33a",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#1ac425",
+    "statusBarItem.remoteBackground": "#2ee33a",
+    "statusBarItem.remoteForeground": "#15202b",
+    "tab.activeBorder": "#5be964"
+  },
+  "peacock.color": "#2ee33a"
+}
