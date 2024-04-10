@@ -1,0 +1,29 @@
+.carousel-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.overlay-text-container {
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.overlay-text {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.carousel-caption {
+  text-shadow: #000 1px 0 10px;
+}
+
+.carousel-item {
+  transition: opacity 1s ease-in-out, background-color 0s !important; /* transition duration & flashing removal */
+  background-color: transparent !important;
+}
