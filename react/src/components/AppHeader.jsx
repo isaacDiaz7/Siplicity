@@ -6,7 +6,7 @@ function AppHeader() {
     <React.Fragment>
       <Navbar expand="lg" className="bg-primary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               alt=""
               src="../src/assets/react.svg"
@@ -40,7 +40,10 @@ function AppHeader() {
             <Nav>
               <Nav.Link href="#deets">Location</Nav.Link>
               <Nav.Link href="#deets">Order Now</Nav.Link>
-              <Nav.Link href="#deets">Account</Nav.Link>
+              <NavDropdown title="Account" id="account-nav-dropdown">
+                <NavDropdown.Item href="/login"> Log In</NavDropdown.Item>
+                <NavDropdown.Item href="/signup"> Sign Up</NavDropdown.Item>
+              </NavDropdown>
               <Form className="d-flex">
                 <Form.Control
                   type="search"

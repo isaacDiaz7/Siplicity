@@ -1,13 +1,26 @@
 import "./App.css";
+import Home from "./components/home/Home";
 import AppHeader from "./components/AppHeader";
 import AppFooter from "./components/footer/AppFooter";
-import Home from "./components/home/Home";
+import LoginPage from "./components/login/LoginPage";
+import { useRoutes } from "react-router-dom";
 
 function App() {
+  const routes = [
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/login",
+      element: <LoginPage />,
+    },
+  ];
+  const routesElement = useRoutes(routes);
   return (
     <>
       <AppHeader />
-      <Home />
+      <div className="app">{routesElement}</div>
       <AppFooter />
     </>
   );
